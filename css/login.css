@@ -1,0 +1,246 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background: rgb(99, 8, 27);
+  background: linear-gradient(
+      0deg,
+      rgba(99, 8, 27, 0.97) 0%,
+      rgba(28, 26, 27, 0.97) 100%
+    ),
+    url("../img/tecnologia3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.footer {
+  background: #303036;
+  color: #d3d3d3;
+  height: 300px;
+  position: relative;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.footer .footer-content {
+  height: 100px;
+}
+#Footer {
+  bottom: 0px;
+}
+#imgFooter {
+  width: 25px;
+}
+
+#redes-sociales {
+  float: center;
+}
+
+#contactos {
+  float: center;
+}
+
+#adress {
+  float: center;
+}
+
+.footer .footer-bottom {
+  background: #343a40;
+  color: #686868;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+@import "bourbon";
+
+.wrapper {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.form-signin {
+  max-width: 380px;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.checkbox {
+  font-weight: normal;
+}
+
+.form-control {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+  @include box-sizing(border-box);
+}
+
+input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+input[type="password"] {
+  margin-bottom: 20px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+@media (max-width: 575px) {
+  a {
+    padding: 15px;
+    font-family: "Josefin Sans", sans-serif;
+  }
+
+  #menu {
+    background: linear-gradient(
+      112deg,
+      rgba(43, 43, 43, 0.75) 20%,
+      rgba(255, 255, 255, 0.75) 60%
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 200;
+  }
+
+  p {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 200;
+    width: 50%;
+  }
+  #conceme {
+    background-color: black;
+    padding: 20px;
+    margin-bottom: 500px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  a {
+    padding: 15px;
+    font-family: "Josefin Sans", sans-serif;
+  }
+
+  #menu {
+    background: linear-gradient(
+      112deg,
+      rgba(43, 43, 43, 0.75) 20%,
+      rgba(255, 255, 255, 0.75) 60%
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 200;
+  }
+
+  p {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 200;
+    width: 50%;
+  }
+  #conceme {
+    background-color: black;
+    padding: 20px;
+    margin-bottom: 500px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  a {
+    padding: 15px;
+    font-family: "Josefin Sans", sans-serif;
+  }
+
+  #menu {
+    background: linear-gradient(
+      112deg,
+      rgba(43, 43, 43, 0.75) 20%,
+      rgba(255, 255, 255, 0.75) 60%
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 200;
+  }
+
+  p {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 200;
+    width: 50%;
+  }
+  #conceme {
+    background-color: black;
+    padding: 20px;
+    margin-bottom: 500px;
+  }
+}
+
+@media (min-width: 992px) {
+  a {
+    padding: 15px;
+    font-family: "Josefin Sans", sans-serif;
+  }
+
+  #menu {
+    background: linear-gradient(
+      112deg,
+      rgba(43, 43, 43, 0.75) 20%,
+      rgba(255, 255, 255, 0.75) 60%
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 200;
+  }
+
+  p {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 200;
+    width: 50%;
+  }
+  #conceme {
+    background-color: black;
+    padding: 20px;
+    margin-bottom: 500px;
+  }
+}

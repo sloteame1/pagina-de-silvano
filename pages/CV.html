@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <link rel="stylesheet" href="../css/styleCV.css" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <link rel="icon" type="image" href="../img/images.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+
+    <title>
+      Silvano García Aspe García
+    </title>
+  </head>
+
+  <body>
+    <div id="menu" class="container-fluid">
+      <div id="opciones" class="row d-flex p-0"> 
+        <div  class=" col d-flex justify-content-start">
+          <a  class="text-black m-1"
+            href="../index.html"
+            style="color: white;"
+            ><em>Menú</em></a
+          >
+          <a href="../pages/portafolio.html"  class="text-black m-1"
+          style="color: white;">
+            <em>Portafolio</em></a>
+          <a
+            href="../pages/CV.html"
+            class="text-black m-2"
+            style="color: white;"><em>CV</em></a>
+          <a
+            href="../pages/contactos.html"
+            class="text-black m-2" 
+            style="color: white;"><em>Contactos</em></a>
+          <a
+            class="d-none text-black m-2"
+            id="crudnav"
+            href="../pages/CRUD.html"
+            style="color: white;"
+            ><em>CRUD</em></a
+          >
+        </div>   
+        <!-- Navegacion -->
+         <div class="col  d-flex justify-content-end">
+            <a class="logged-out m-2" style="color: black;" href="#" data-toggle="modal" data-target="#signinModal">Signin</a>
+
+            <a class="logged-out m-2" style="color: black;" href="#" data-toggle="modal" data-target="#signupModal">Signup</a>
+
+            <a class="logged-in m-2" style="color: black;" href="#" id="logout">Logout</a>
+          </div>
+      </div>
+    </div>
+
+  <!-- Modal signup-->
+  <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Sign Up</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form id="signup-form">
+            <div class="form-group">
+              <input type="text" id="signup-email" class="form-control" placeholder="Email" required>
+            </div>
+            <div class="form-group">
+              <input type="password" id="signup-password" class="form-control" placeholder="Password" required>
+            </div>
+           <button type="submit" class="btn btn-primary">Sign up</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Sign In-->
+  <div class="modal fade" id="signinModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Sign In</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form id="login-form">
+            <div class="form-group">
+              <input type="text" id="login-email" class="form-control" placeholder="Email" required>
+            </div>
+            <div class="form-group">
+              <input type="password" id="login-password" class="form-control" placeholder="Password" required>
+            </div>
+           <button type="submit" class="btn btn-primary">Sign in</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div id="titulo">
+      <h1 class="text-center">Silvano García Aspe García</h1>
+      <h2 class="text-center">Ingienería en animación y videojuegos</h2>
+      <p class="text-center">
+        <img
+          id="image1"
+          class="text-center img-fluid"
+          src="../img/Silvano.jpg"
+          alt="Trulli"
+          width="130"
+          height="200"
+        />
+      </p>
+    </div>
+
+    <div class="container-fluid text-center">
+        <div class="row">
+          <div class="col">
+              <div id="info-personal" class="text-white">
+                  <div id="data">
+                    <h2>Datos sobre mi</h2>
+
+                      <li>Edad: 21 años</li>
+                      <li>Sexo: Masculino</li>
+                      <li>
+                        Actualmente estudio el 5to semestre de Ingienería en animación y
+                        videojuegos.
+                      </li>
+                      <li>Primaria: Instituto Inglaterra y Bertha Von Glumer</li>
+                      <li>Secundaria: Bertha Von Glumer</li>
+                      <li>Preparatoria: Universidad La Salle</li>
+
+                      <br /><i class="fas fa-phone-square-alt">
+                        Teléfono (casa): 5566477683</i
+                      >
+                      <br /><i class="fas fa-phone-square-alt"> Teléfono: 5517981568</i>
+                      <br /><i class="far fa-envelope">
+                        Correo electrónico: sloteame1@gmail.com</i
+                      >
+                  </div>
+
+                  <div id="perfil">
+                    <h2>Perfil personal</h2>
+
+                    <p>
+                      Soy ingeniero en animación y videojuego, disfruto el desarrollar
+                      animaciones en 2D, no he practicado en el desarrollo de animaciones en 3D, pero es algo que me enactaría probar más a futuro. <br />
+                      También tengo conocimientos en modelación 3D. Me considero con un gran
+                      potencial para crear y desarrollar ideas par historias y darle vida a personajes.
+                    </p>
+                  </div>
+                </div>
+
+          </div>
+          <div class="col">
+
+<div id="exp">
+
+    <div id="habilidad">
+        <h3>Resumen de habilidades</h3>
+
+          <li>
+            Facilidad para trabajar en equipo <i class="far fa-thumbs-up"></i>
+          </li>
+          <li>
+            Buena comunicación, tanto verbal como escrita
+            <i class="far fa-thumbs-up"></i>
+          </li>
+          <li>
+            Constancia para obtener resultados deseados
+            <i class="far fa-thumbs-up"></i>
+          </li>
+
+      </div>
+
+
+    <div id="explab">
+      <h2>Experiencia laboral:</h2>
+
+
+        <li>Desarrollo de Modelos 3D</li>
+        <li>Desarrollo de personajes</li>
+        <li>Desarrollo de render y texturas para los Modelos</li>
+        <li>Implementación de iluminaciones en los Modelos</li>
+        <li>
+          Evidencia de trabajo:<br />
+          <img
+            style="padding-top: 10px;"
+            src="../img/tanque de agua.JPG"
+            class="img-fluid"
+            alt="Trulli"
+            width="440"
+            height="240"
+          />
+        </li>
+    </div>
+
+    <div id="desarrollo">
+      <h2>Desarrollo de animaciones</h2>
+
+        <li>Escritor de guión</li>
+        <li>Dirección y desarrollo de Sonido</li>
+        <li>Altos conocimientos del software Adobe Animate</li>
+        <li>
+          Evidencia de trabajo:<br />
+          <a href="../img/Presentación (Intro).mp4"
+            >Mi primera animación de mejor calidad</a
+          >
+        </li>
+    </div>
+  </div>
+  </div>
+</div>
+</div>
+
+        <div class="footer">
+            <div class="footer-content">
+
+              <div class="container-fluid text-white text-center">
+
+                <div class="row"">
+                  <div class="col">
+                      <div id="redes-sociales" class="text-center">
+                          <h3>Redes sociales:</h3>
+                          <div id="facebook">
+                            <img id="imgFooter" src="../img/facebook.png" />
+                            <label> Mi facebook</label>
+                          </div>
+
+                          <div id="instagram">
+                            <img id="imgFooter" src="../img/instagram.png" />
+                            <label> Mi instagram</label>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div id="contactos">
+                            <h3>Contactos:</h3>
+                            <div id="celular">
+                              <img id="imgFooter" src="../img/smartphone.png" />
+                              <label>55-1798-1568</label>
+                            </div>
+
+                            <div id="correo">
+                              <img id="imgFooter" src="../img/contact.png" />
+                              <label>0215409@up.edu.mx</label>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col">
+                        <div id="adress">
+                            <h3>Lugar de trabajo:</h3>
+                            <div id="lugar">
+                              <img id="imgFooter" src="../img/house.png" />
+                              <label
+                                >Augusto Rodin No. 498, Insurgentes Mixcoac, Benito Juárez, 03920
+                                Del. Benito Juárez, CDMX</label
+                              >
+                            </div>
+                          </div>
+                    </div>
+                </div>
+              </div>
+              </div>
+            <div class="footer-bottom">
+              &copy; https://codesandbox.io/s/silvanogarciaaspe-1to2e?file=/index.html
+              | Design by Silvano García Aspe
+            </div>
+          </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+   https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-storage.js"></script>
+
+  <script>
+    var firebaseConfig = {
+      apiKey: "AIzaSyCVgT6QnJ6hwl1yzm6tCYJuxPO_M8gXVTU",
+      authDomain: "silvano-garcia-aspe.firebaseapp.com",
+      databaseURL: "https://silvano-garcia-aspe.firebaseio.com",
+      projectId: "silvano-garcia-aspe",
+      storageBucket: "silvano-garcia-aspe.appspot.com",
+      messagingSenderId: "570492326792",
+      appId: "1:570492326792:web:e0c3209ea41239ce8d203d",
+      measurementId: "G-D9TYDXHDKX"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+
+    const auth = firebase.auth(); 
+    const fs = firebase.firestore();
+  </script>
+
+          <script src="../scripts/login.js"></script>
+  </body>
+</html>
